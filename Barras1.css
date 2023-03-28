@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0px;
+}
+
+/* Menu de navigacion */
+body {
+    background: #ffffff
+}
+
+body .MenuPrincipal {
+    align-items: center;
+    background: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 8px;
+    padding-top: 0px;
+    padding-left: 48px;
+}
+
+body .MenuPrincipal .Logo {
+    border-radius: 5px;
+}
+
+body .MenuPrincipal .Logo h4 {
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: x-large;
+    padding: 8px 44px;
+}
+
+body .MenuPrincipal .MenuItems {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right: 48px;
+    width: 100%;
+}
+
+body .MenuPrincipal .Items{
+    color: black;
+    display: flex;
+}
+
+body .MenuPrincipal .MenuItems .Items p {
+    font-size: large;
+    padding: 20px 24px;
+    padding-inline: 0px;
+    padding-right: 48px;
+}
+
+body .MenuPrincipal .MenuItems .Icon {
+    align-items: center;
+    color: black;
+    display: flex;
+}
+
+body .MenuPrincipal .MenuItems .Icon .material-symbols-outlined {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+body .MenuPrincipal .MenuItems .Icon span {
+    padding-right: 32px;
+}
+
+body .MenuPrincipal .MenuItems .Icon .Buttons .Boton1 {
+    background: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+body .MenuPrincipal .MenuItems .Icon .Buttons .Boton1:hover {
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 32px;
+    padding-left: 32px;
+}
+
+body .MenuPrincipal .MenuItems .Icon .Buttons > span {
+    padding: 0px 12px;
+}
+
+body .MenuPrincipal .MenuItems .Icon .Buttons .Boton2 {
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px 32px;
+}
+
+body .MenuPrincipal .MenuItems .Icon .Buttons .Boton2:hover {
+    background: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+body .Footer {
+    align-items: center;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+}
+
+body .Footer .Izquierda {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+body .Footer .Izquierda .Logo {
+    border-radius: 5px;
+    padding-bottom: 48px;
+}
+
+body .Footer .Izquierda .Logo h4 {
+    background: rgb(92, 92, 92);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: x-large;
+    padding: 8px 44px;
+}
+
+body .Footer .Izquierda .Sistemas {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 48px;
+}
+
+body .Footer .Izquierda > span {
+    padding-left: 64px;
+}
+
+body .Footer .Derecha {
+    color: #ffffff;
+    display: flex;
+    gap: 72px;
+    padding-top: 40px;
+}
+
+body .Footer .Derecha .Enlaces {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+body .Footer .Derecha .Enlaces .Redes > span {
+    padding: 0px 5px;
+}
+
+body .Copyright {
+    background: rgb(92, 92, 92);
+    color: #ffffff;
+    margin: 0%;
+    padding: 24px 0px;
+    text-align: center;
+}
